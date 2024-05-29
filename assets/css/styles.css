@@ -1,0 +1,230 @@
+
+
+body {
+    background: black;
+    color: white;
+    margin: 0;
+    font-family: Netflix;
+    background-size: cover;
+  }
+  .video-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    overflow: hidden;
+  }
+  
+  video {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -0%);
+  }
+  .flecha{
+    margin: 0px 15px;
+  
+  }
+  
+  .btn-a{
+    
+    background-color: #666666;
+    color: white;
+    padding: 15px 15px;
+    
+    margin: 2px 15px;
+    margin-left: 7px 15px;
+    text-decoration:  none;
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    display: block; /* Asegura que el botón se comporte como un bloque, ocupando el 100% del contenedor */
+    box-sizing: border-box;
+  }
+  .btn-b{
+    background-color: #999999;
+    color:white;
+    padding: 15px 15px;
+    margin: 2px 15px;
+    margin-left: 7px 15px;
+    text-decoration:  none;
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    display: block; /* Asegura que el botón se comporte como un bloque, ocupando el 100% del contenedor */
+    box-sizing: border-box;
+    
+    
+    
+   
+  }
+  .iconos{
+    margin: 0px 8px;
+  }
+  .iconos-2{
+    border: 5px solid red;
+    margin: 0pc 10px;
+  }
+  .icono-1{
+    border: 5px solid red;
+    height: 10px;
+    text-align: left;
+  }
+  
+  .contenedor{
+    display: flex;
+  }
+  .imagen{
+    width: 35px;
+    height: 35px;
+    margin: 0px 15px;
+    float: left;
+  }
+  
+  .text{
+    margin: 0px 15px;
+  }
+  .text-1 {
+    margin: 0px 15px;
+    color: rgb(42, 223, 42);
+  }
+  .text-2{
+      margin: 5px;
+  }
+  .text-3{
+    margin: 5px;
+  }
+  .top-1{
+    text-align: right;
+    display: block; /* Asegura que el botón se comporte como un bloque, ocupando el 100% del contenedor */
+    box-sizing: border-box;
+    margin: 0px 40px ;
+  }
+  .datos{
+    display: flexbox;
+  }
+  .parrafo{
+    font-size: 25px;
+  }
+  .h2{
+    font-size: 25px;
+  }
+  .dato-1{
+    margin: 0px 15px ;
+    align-items: center;
+  }
+  .dato-2{
+    margin: 0px 15px;
+    align-items: center;
+  }
+  .dato-3{
+    margin: 0px 15px;
+    align-items: center;
+  }
+  .container-1{
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  
+  }
+  
+  .img-01{
+    width: 25px;
+    margin: 0 15px;
+  }
+  .card{
+    align-self: auto;
+    text-align: center;
+    box-shadow: rgb(0, 0, 0, 0.35) 0px 5px 15px;
+    margin:  0px 30px;
+  }
+
+  .card h1{
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  .botones{
+    color: black;
+    font-size: 15px;
+  
+  }
+  .nombre{
+    margin: 0px 15px;
+    font-size: 18 px;
+  }
+  .list-content {
+    white-space: nowrap;
+    overflow-x: auto;
+    max-width: 100%;
+    height: auto;
+  }
+  .list-item {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .list-item:first-child {
+    margin: 0;
+  }
+  
+  .list {
+    padding: 0 1em;
+    max-width: 100%;
+    height: auto;
+  }
+  .Adios{
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 0 0 red;
+  
+  }
+  .footer {
+    /* border: 1px solid red; */
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    padding: 1em 0 0;
+  }
+  
+  
+  .tab-list {
+    /* border: 1px solid green; */
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    color: #6e6e6e;
+    padding-bottom: 1em;
+  }
+  .tab-list a {
+    color: #6e6e6e;
+  }
+  
+  .tab-item {
+    /* border: 1px solid purple; */
+    text-align: center;
+    font-size: .9em;
+  }
+  
+  .tab-item svg {
+    display: block;
+    /* border: 1px solid red; */
+    margin: auto;
+  }
+  
+  .tab-item path{
+    fill: #6e6e6e;
+  }
+  
+  
+  .tab-item:hover :is(path, span) {
+   fill: white;
+   color: white;
+  }
